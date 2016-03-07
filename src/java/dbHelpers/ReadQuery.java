@@ -102,6 +102,10 @@ public class ReadQuery {
                 table += team.getLeague();
                 table += "</td>";
                 
+                table += "<td>";
+                table += "<a href=delete?trackID=" + team.getTrackID() + "> Delete </a>";
+                table += "</td>";
+                
                 table += "</tr>";
             }
         } catch (SQLException ex) {
