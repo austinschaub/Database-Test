@@ -69,6 +69,16 @@ public class ReadQuery {
         
         table += "<table>";
         
+        table += "<tr>";
+                table += "<th>Team ID</th>";
+                table += "<th>Team Name</th>";
+                table += "<th>Team State</th>";
+                table += "<th>Championships Won</th>";
+                table += "<th>Leauge</th>";
+                table += "<th>Delete/Update</th>";
+                
+        
+        
         
         try {
             while(this.results.next()){
@@ -104,7 +114,7 @@ public class ReadQuery {
                 table += "</td>";
                 
                 table += "<td>";
-                table += "<a href=delete?trackID=" + team.getTrackID() + "> Delete </a>";
+                table += "<a href=update?trackID=" + team.getTrackID() + "> Update </a>" + "<a href=delete?trackID=" + team.getTrackID() + "> Delete </a>";
                 table += "</td>";
                 
                 table += "</tr>";
