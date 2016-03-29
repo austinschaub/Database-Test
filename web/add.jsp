@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css" type="text/css"/>
     </head>
     <body>
-        <h1>Add A New Team</h1>
+        <h1>Add A New Team</h1>  
         
         <div class="entireSalaryForm">
         <form name="addForm" action="addTeam" method="get">

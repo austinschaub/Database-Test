@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package controller;
+package controller; 
 
 import dbHelpers.AddQuery;
 import java.io.IOException;
@@ -25,7 +25,7 @@ public class AddServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
+     * methods.  
      *
      * @param request servlet request
      * @param response servlet response
