@@ -20,7 +20,7 @@
             
             <br><br>
             <label>Team ID:</label>
-            <input type="text" name="trackID" value="<%= team.getTrackID()%>"/>
+            <input type="text" name="trackID" value="<%= team.getTrackID()%>" readonly/>
             <br><br>
             
             
