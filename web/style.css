@@ -1,11 +1,15 @@
 
 body {
-        background-color: #D2B48C;
+    background-color: #D2B48C;
 }
 table {
-  width: 100%;
-  
+    width: 100%; 
 }
+
+
+.footer {width:100%; background-color:black;color:white;font-weight:bold;text-align:center;margin-right:0px;margin-left:0px; padding-top:2px; margin-top:2px;}
+
+.main {background-color:pink; text-align:left; padding:25px}
 
 input[readonly] {background-color:gray;}
 
@@ -49,7 +53,7 @@ input {
 }
 
 tr:hover {
-   background-color: #CCCCCC;
+    background-color: #CCCCCC;
 
 }
 tr:nth-child(even) {
@@ -62,3 +66,37 @@ tr {
     background-color: #F08080;
     color: #FFFFFF;
 }
+
+.body {background-color:gray;}
+
+
+.wrap { text-align:center; 
+        width:90%; margin:0 auto; 
+        border: 8px solid red; 
+        margin-top:25px;}
+
+.header {width:100%; background-color:blue;color:tan;margin-right:auto;margin-left:auto;
+         padding:1px;overflow:hidden;text-align: left;display: inline-block;height: 10%;}
+
+.headerImg {float:left;width:200px}
+
+.headerText{float:left;height:105px; padding-top:50px; padding-left:25px;}
+
+
+/*http://css.maxdesign.com.au/listamatic/horizontal31.htm#*/
+
+.navcontainer{background-color: #1F00CA;border-top: solid 1px #FFFFFF;border-bottom: solid 1px #FFFFFF;}
+
+.navcontainer ul{font-family: Arial, Helvetica, sans-serif;font-weight: bold;color: white;text-align: center;
+                 margin: 0;padding-bottom: 5px;padding-top: 5px;}
+
+.navcontainer ul li{display: inline;margin-left: -4px;}
+
+.navcontainer ul li a{padding: 5px 10px 5px 10px;color: white;text-decoration: none;border-right: 1px solid #fff;}
+
+.navcontainer ul li a:hover{background-color: #16008D;color: white;}
+
+.active a { border-left: 1px solid #fff; }
+
+
+

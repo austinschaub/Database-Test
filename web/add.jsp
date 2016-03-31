@@ -7,42 +7,50 @@
         <link rel="stylesheet" href="style.css" type="text/css"/>
     </head>
     <body>
-        <h1>Add A New Team</h1>  
-        
-        <div class="entireSalaryForm">
-        <form name="addForm" action="addTeam" method="get">
-            <br>
-            <br>
-            
-            <label>Team Name:</label>
-            <input type ="text" name="teamName" value="" />
-            <br>
-            <br>
-            <label>Team State:</label>
-            <input type="text" name="teamState" value="" />
-            <br>
-            <br>
+        <div class = "wrap">
+            <%@ include file="includes/header.jsp" %>
+            <%@ include file="includes/menu.jsp" %>
+            <div class = "main">
 
-            <label>Championships Won:</label>
-            <input type="text" name="champions" value="" />
-            <br>
-            <br>
 
-            <label>League:</label>
-            <input type="text" name="league" value="" />
-            <br>
-            <br>
-            <br>
-            <input  type="submit" name="submit" Value="Submit"/>
-            
-        </form>
-        
-        </div>
-        
-        
-        
-        
-        
-        
+                <h1>Add A New Team</h1>  
+
+                <div class="entireSalaryForm">
+                    <form name="addForm" action="addTeam" method="get">
+                        <br>
+                        <br>
+
+                        <label>Team Name:</label>
+                        <input type ="text" name="teamName" value="" />
+                        <br>
+                        <br>
+                        <label>Team State:</label>
+                        <input type="text" name="teamState" value="" />
+                        <br>
+                        <br>
+
+                        <label>Championships Won:</label>
+                        <input type="text" name="champions" value="" />
+                        <br>
+                        <br>
+
+                        <label>League:</label>
+                        <input type="text" name="league" value="" />
+                        <br>
+                        <br>
+                        <br>
+                        <input  type="submit" name="submit" Value="Submit"/>
+
+                    </form>
+
+                </div>
+
+
+
+            </div> <!--close main -->
+            <%@ include file="includes/footer.jsp" %>            
+        </div> <!--close the wrap div -->
+
+
     </body>
 </html>
